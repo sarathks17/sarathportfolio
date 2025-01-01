@@ -1,0 +1,89 @@
+.body-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-left: 50px;
+    height: 50vh;
+    gap: 30px;
+}
+.body-container img{
+    border-radius: 50%;
+    width: 12rem;
+    height: 25vh;
+}
+.body-info{
+    line-height: 60px;
+}
+.body-info h1{
+    font-family: math;
+    color: white;
+    font-size: 20px;
+}
+.body-info p{
+    color: #929090;
+    font-size: 4rem;
+}
+.body-info span{
+    color: white;
+}
+.body-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    gap: 20px;
+}
+.btn1{
+    background-color: rgb(48, 241, 48);
+    height: 8vh;
+    width: 10rem;
+    font-size: 14px;
+    border: 1px solid white;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    padding: 8px;
+}
+.btn1 svg{
+    height: 2.5vh;
+    position: absolute;
+    width: 2rem;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+.btn1:hover svg{
+    transform: rotate(180deg);
+   
+}
+.btn2{
+    background-color: rgb(40, 40, 40);
+    color: #fff;
+    height: 8vh;
+    width: 12rem;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid white;
+    cursor: pointer;
+    position: relative;
+    text-align: start;
+    padding: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+.btn2 svg{
+    height: 3vh;
+    width: 2rem;
+    position: absolute;
+    background-color: #fff;
+    top: 30%;
+    background-color: transparent;
+}
+.btn2:hover{
+    transform: scale(1.1);
+    background-color: #a8a6a6;
+    color: black;
+}
+.btn2:hover svg{
+    background-color: transparent;
+}
+
