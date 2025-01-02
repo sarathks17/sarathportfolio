@@ -1,0 +1,169 @@
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 10;
+    padding-top: 10%;
+    padding-left: 15px;
+}
+.contact-leftsection{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 30%;
+}
+.scroll-section{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5%;
+    width: 100%;
+  overflow: hidden;
+  white-space: nowrap; 
+  position: relative;
+  background-color: transparent;
+  padding: 10px;
+}
+.scroll-section h1{
+    display: inline-block;
+    animation: move-text 10s linear infinite; 
+    font-size: 2rem;
+    color: #9e9898;
+    background-color: transparent;
+}
+@keyframes move-text {
+    0% {
+      transform: translateX(100%); 
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+.contact-leftsection h1{
+    color: #fff;
+    font-family: math;
+}
+
+.contact-leftsection svg{
+    font-size: 2rem;
+    position: relative;
+    color: rgb(37, 243, 243);
+    transform: rotate(180deg);
+    animation: rotate 2s linear infinite;
+    left: 35%;
+}
+.contact-leftsection svg:hover{
+    color: rgb(40, 40, 40);
+    cursor: pointer;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate{
+    0% {
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(540deg);
+    }
+}
+.contact-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-txt span{
+    color: rgb(155, 152, 152);
+}
+.contact-txt p{
+    font-size: 16px;
+    font-family: math;
+    color: #fff;
+}
+.contact-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.contact-btn button{
+    width: 8rem;
+    height: 5vh;
+    border: 1px solid #fff;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-btn button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(48, 241, 48);
+    color: black;
+    font-weight: bold;
+}
+.contact-btn button:hover a{
+    color: #000;
+}
+.contact-btn button a{
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    font-weight: bold;
+}
+.contact-rightsection{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.input-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 4%;
+}
+.msg-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 2%;
+}
+.input-section input{
+    width: 12rem;
+    height: 5vh;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    border: none;
+    padding: 3px;
+    font-weight: bold;
+    font-family: math;
+}
+.input-section label{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.msg-section textarea{
+    height: 15vh;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+.msg-section button{
+  height: 5vh;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+.msg-section button:hover{
+    transform: scale(1.1);
+    background-color: rgb(48, 241, 48);
+    color: #fff;
+    font-weight: bold;
+}

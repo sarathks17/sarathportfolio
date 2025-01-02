@@ -4,6 +4,7 @@ import Body from './Components/Body/Body'
 import Info from './Components/Info/Info'
 import Skills from './Components/Skills/Skills'
 import Projects from './Components/Projects/Projects'
+import Contact from './Components/Contact/Contact'
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
      <Info/>
      <Skills/>
     <Projects/>
-    <Skills/>
+   <Contact/>
      
      
     </div>
