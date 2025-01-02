@@ -1,0 +1,37 @@
+.skills-container{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin-top: 10%;
+    position: sticky;
+    top: 15%;
+    height: 100vh;
+    /* padding-top: 10px; */
+    
+  }
+  .skills-info{
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+    width: 30%;
+  }
+  .skills-container h1{
+    font-family: math;
+    color: #fff;
+  }
+  .skills-info h3{
+    font-family: math;
+    color: #929090;
+    font-size: 20px;
+  }
+  .skills-info ul li{
+    font-family: math;
+    color: #fff;
+    font-size: 14px;
+    list-style:none;
+    line-height: 25px;
+  }
+  .skills-info svg{
+    color: rgb(48, 241, 48);
+    font-size: 2rem;
+  }

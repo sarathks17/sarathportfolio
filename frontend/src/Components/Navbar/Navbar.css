@@ -5,7 +5,9 @@ justify-content: space-between;
 height: 12vh;
 background-color: rgb(40, 40, 40);
 border-bottom: 1px solid white;
-
+position: fixed;
+width: 100%;
+z-index: 1000;
 }
 .left-nav{
     display: flex;

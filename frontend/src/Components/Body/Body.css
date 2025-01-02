@@ -4,8 +4,10 @@
     align-items: center;
     justify-content: start;
     margin-left: 50px;
+    padding-top: 15%;
     height: 50vh;
     gap: 30px;
+    
 }
 .body-container img{
     border-radius: 50%;
