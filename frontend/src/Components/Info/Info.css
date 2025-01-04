@@ -6,13 +6,13 @@
   position: sticky;
   top: 15%;
   height: 100vh;
-
+ width: 100%;
 }
 .about-info{
   display: flex;
   flex-direction: column;
  gap: 20px;
-  width: 30%;
+  width: 50%;
 }
 .info-first{
   display: flex;
@@ -61,4 +61,21 @@
 .about-info button:hover{
   transform: scale(1.2);
   background-color: #363636;
+}
+@media(max-width:632px){
+  .info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+  }
+  .about-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
 }

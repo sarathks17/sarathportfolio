@@ -39,13 +39,20 @@
 .btn1{
     background-color: rgb(48, 241, 48);
     height: 8vh;
-    width: 10rem;
+    width: 12rem;
     font-size: 14px;
     border: 1px solid white;
     cursor: pointer;
     position: relative;
     text-align: center;
     padding: 8px;
+}
+.btn1 a{
+    background-color: transparent;
+    text-decoration: none;
+    font-size: bold;
+    color: #fff;
+
 }
 .btn1 svg{
     height: 2.5vh;
@@ -60,7 +67,6 @@
 }
 .btn2{
     background-color: rgb(40, 40, 40);
-    color: #fff;
     height: 8vh;
     width: 12rem;
     font-weight: bold;
@@ -72,11 +78,17 @@
     padding: 8px;
     transition: transform 0.2s ease-in-out;
 }
+.btn2 a{
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
 .btn2 svg{
     height: 3vh;
     width: 2rem;
     position: absolute;
     background-color: #fff;
+    color: #fff;
     top: 30%;
     background-color: transparent;
 }
@@ -85,7 +97,55 @@
     background-color: #a8a6a6;
     color: black;
 }
+.btn2:hover a{
+    color: black;
+}
 .btn2:hover svg{
     background-color: transparent;
 }
 
+@media (max-width:935px){
+    .body-info p{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:632px){
+    .body-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     height: 85vh;
+     margin-left: 0px;
+     gap: 5px;
+    }
+    .body-info h1{
+        text-align: center;
+    }
+    .body-btn{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .body-info p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:444px){
+    .body-info p{
+        font-size: 18px;
+    }
+}
+@media(max-width:415px){
+    .body-container img{
+        height: 20vh;
+    }
+}
+@media (max-width:384px){
+    .body-container img{
+        width: 8rem;
+        height: 18vh;
+    }
+}
