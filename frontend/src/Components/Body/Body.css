@@ -141,6 +141,7 @@
 @media(max-width:415px){
     .body-container img{
         height: 20vh;
+        width: 9rem;
     }
 }
 @media (max-width:384px){
