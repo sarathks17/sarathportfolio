@@ -2,6 +2,7 @@ import React from 'react'
 import './Projects.css'
 import card1 from '../../assets/about.png'
 import card2 from '../../assets/football.jpg'
+import fooddelimg from '../../assets/foodDeliveryimg.jpg'
 const Projects = () => {
   return (
     <div className='project-container'>
@@ -24,14 +25,14 @@ const Projects = () => {
                         <a href="https://universityapplication-nmk0.onrender.com/"target="_blank" rel="noopener noreferrer">Show Now</a>
                     </div>
                 </div>
-                {/* <div className="card">
-                    <img src={card1} alt="" />
+                <div className="card">
+                    <img src={fooddelimg} alt="" />
                     <div className="overlay">
                         <h3>img 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt perferendis doloremque officiis ab sunt placeat fuga dolor animi dolores natus,</p>
-                        <a href="#" target="_blank" rel="noopener noreferrer">Show Now</a>
+                        <p>A food delivery app that lets users order food, make payments, and track deliveries effortlessly.</p>
+                        <a href="https://food-delevery-application-frontend.onrender.com/" target="_blank" rel="noopener noreferrer">Show Now</a>
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
       
